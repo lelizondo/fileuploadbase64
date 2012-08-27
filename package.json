@@ -1,0 +1,48 @@
+{
+  "name": "fileuploadbase64",
+  "description": "Route middleware for handling file uploads in Express",
+  "version": "0.0.1",
+  "author": {
+    "name": "luis Elizondo",
+    "email": "lelizondo@gmail.com"
+  },
+  "contributors": [
+    {
+      "name": "luis Elizondo",
+      "email": "lelizondo@gmail.com"
+    }
+  ],
+  "dependencies": {
+    "async": ">= 0.1.9 < 0.2.0",
+    "mime": ">=1.2.5"
+  },
+  "devDependencies": {
+    "mocha": "0.3.6",
+    "should": "0.5.0",
+    "express": ">=2.5.6",
+    "fermata": "> 0.8"
+  },
+  "keywords": [
+    "fileupload",
+    "base64",
+    "express"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/lelizondo/fileuploadbase64.git"
+  },
+  "main": "index",
+  "engines": {
+    "node": ">= 0.4.6 < 0.7.0"
+  },
+  "_id": "fileuploadbase64@0.0.1",
+  "optionalDependencies": {},
+  "_engineSupported": true,
+  "_npmVersion": "1.1.19",
+  "_nodeVersion": "v0.6.18",
+  "_defaultsLoaded": true,
+  "dist": {
+    "shasum": "563d0a7c6a9b43d23e9ab4820e2bc18859fd0dc0"
+  },
+  "_from": "fileuploadbase64@0.0.0"
+}
