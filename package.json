@@ -1,7 +1,7 @@
 {
   "name": "fileuploadbase64",
   "description": "Route middleware for handling file uploads in Express",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "author": {
     "name": "luis Elizondo",
     "email": "lelizondo@gmail.com"
@@ -35,7 +35,7 @@
   "engines": {
     "node": ">= 0.4.6 < 0.7.0"
   },
-  "_id": "fileuploadbase64@0.0.1",
+  "_id": "fileuploadbase64@0.0.4",
   "optionalDependencies": {},
   "_engineSupported": true,
   "_npmVersion": "1.1.19",
