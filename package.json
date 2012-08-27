@@ -1,7 +1,7 @@
 {
   "name": "fileuploadbase64",
-  "description": "Takes a base64 encoded image and saves it to the filesystem as a PNG image file. Compatible with fileupload",
-  "version": "0.0.2",
+  "description": "Route middleware for handling file uploads in Express",
+  "version": "0.0.3",
   "author": {
     "name": "luis Elizondo",
     "email": "lelizondo@gmail.com"
