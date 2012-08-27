@@ -1,7 +1,7 @@
 {
   "name": "fileuploadbase64",
-  "description": "Route middleware for handling file uploads in Express",
-  "version": "0.0.4",
+  "description": "This module will take a Base64 encoded image and write the image to the filesystem. It will return the same file structure as fileupload.",
+  "version": "0.0.5",
   "author": {
     "name": "luis Elizondo",
     "email": "lelizondo@gmail.com"
