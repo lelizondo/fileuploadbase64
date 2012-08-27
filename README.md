@@ -4,7 +4,10 @@ The main reason was not to replace fileupload but to complement it. File upload 
 
 This module will take a Base64 encoded image and write the image to the filesystem. It will return the same file structure as fileupload. I did this because I'm using fileupload and I needed the result object to look the same to avoid handling different result objects.
 
-** Usage
+# Install
+npm install fileuploadbase64
+
+# Usage
 var fileuploadbase64 = require("fileuploadbase64");
 
 Params:
@@ -18,6 +21,7 @@ fileuploadbase64(file, directory, function(error, result) {
   // do something with the result file object
 });
 
+## File object
 The file object will be something like:
 
 {
@@ -27,9 +31,9 @@ The file object will be something like:
    basename: 'test1.png'
 }
 
-Limitations:
+### Limitations
 Right now it is hard-coded into the module the image extension, it will only create PNG files.
 
-License
+### License
 GNU Public License Version 3
 http://www.gnu.org/copyleft/gpl.html
